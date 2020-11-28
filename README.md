@@ -1,2 +1,13 @@
-# Machine-learning
-Foundations of machine learning.
+# Логистическая регрессия
+
+Файл с данными - [Davis.csv](https://github.com/sdukshis/ml-intro/blob/master/datasets/Davis.csv).
+На основе набора данных об измерениях роста и веса решим следующую задачу.
+
+1. Обучим модель логистической регресси на данных, используя в качестве целевой переменной пол (sex), а в качестве признаков рост и вес (height, weight). Для обучения будем использовать класс из библиотеки scikit-learn - [LogisticRegression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
+2. Изобразим точки выборки и разделяющую поверхность.
+3. Оценим точность и полноту полученного решения и построим график ROC кривой.
+4. Расширим пространство признаков квадратичными признаками.
+5. Изобразим точки выборки и разделяющую поверхность.
+6. Оценим точность и полноту полученного решения и построим график ROC кривой.
+
+В некоторых строках встречаются пропуски. Будем удалять их из таблицы вместе со всей строкой с помощью метода [pandas.DataFrame.dropna](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.dropna.html).
